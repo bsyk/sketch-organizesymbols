@@ -1,5 +1,4 @@
 @import 'common.js'
-//@import 'library/sandbox.js'
 
 var offset = 100;
 
@@ -63,13 +62,7 @@ function checkIfHasSymbolsPage(pages, symbolsPageName){
 }
 
 // Create a sort function for symbols (boards) within the groups by name
-var hasAlerted = false;
-
 function sortSymbols(a, b) {
-
-  if (!hasAlerted) alert(`Sort: ${a.name}, ${b.name}`);
-  hasAlerted = true;
-
   var nameA = a.name.toUpperCase(); // ignore upper and lowercase
   var nameB = b.name.toUpperCase(); // ignore upper and lowercase
   if (nameA < nameB) {
@@ -78,8 +71,6 @@ function sortSymbols(a, b) {
   if (nameA > nameB) {
     return 1;
   }
-
-  // names must be equal
   return 0;
 }
 
