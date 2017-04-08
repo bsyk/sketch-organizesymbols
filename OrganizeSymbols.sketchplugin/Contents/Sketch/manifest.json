@@ -1,5 +1,9 @@
 {
-  "author" : "Mike Mariano",
+  "author" : "Bennifer",
+  "contributors": [{
+    "name": "Mike Mariano",
+    "email": "mike@uiuxartist.com"
+  }],
   "commands" : [
     {
       "script" : "OrganizeSymbols.js",
@@ -16,11 +20,10 @@
       "organize-symbols",
     ],
   },
-  "identifier" : "com.marianomike.sketch-plugin.organize-symbols",
-  "description": "Organizes symbol artboards into one row.",
-  "authorEmail" : "mike@uiuxartist.com",
+  "identifier" : "com.bensykes.sketch-plugin.organize-symbols",
+  "description": "Organizes symbol artboards into one row per symbol group.",
   "name" : "Organize Symbols",
-  "homepage": "http://uiuxartist.com",
+  "homepage": "https://github.com/bsyk/sketch-organizesymbols",
   "version": "1.0",
   "compatibleVersion": 3.5,
   "bundleVersion": 1
